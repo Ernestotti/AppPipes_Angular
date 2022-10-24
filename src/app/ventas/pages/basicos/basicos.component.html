@@ -51,6 +51,13 @@
                 <li> fecha | date:'HH:mm:ss, cccc, dd/LL/yy, w' </li>
                 <li> fecha | date:'MMMM dd, yyyy' </li>
             </ul>
+
+            <hr>
+            <ul>
+                <li>fecha | date:'long': 'GMT+1'</li>
+                <li>fecha | date:'long': 'GMT-1'</li>
+            </ul>
+
         </p-card>
     </div>
 
@@ -64,6 +71,14 @@
                 <li>{{ fecha | date:'HH:mm:ss, cccc, dd/LL/yy, w' }}</li>
                 <li>{{ fecha | date:'MMMM dd, yyyy' }}</li>
             </ul>
+
+            <hr>
+            <ul>
+                <li>{{ fecha | date:'long': 'GMT+1': 'es-CO'}}</li>
+                <li>{{ fecha | date:'long': 'GMT-1'}}</li>
+                <li>{{ fecha | date:'long':'':'fr'}}</li>
+            </ul>
+
         </p-card>
     </div>
 
