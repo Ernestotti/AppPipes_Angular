@@ -1,1 +1,33 @@
-<p>basicos works!</p>
+
+
+<div class="tech-layout">
+    <h1>Pipes Básicos</h1>
+    <p>
+        Pipes incluídos en Angular - Usualmente en el Common Module.
+    </p>
+</div>
+
+<div class="grid">
+
+    <div class="col-4">
+        <p-card header="uppercase"
+                [subheader]="nombreLower | uppercase">
+                {{ nombreLower | uppercase }}
+        </p-card>
+    </div>
+
+    <div class="col-4">
+        <p-card header="lowercase"
+                [subheader]="nombreUpper | lowercase">
+                {{ nombreLower | lowercase }}
+        </p-card>
+    </div>
+
+    <div class="col-4">
+        <p-card header="titlecase"
+                [subheader]="nombreCompleto | titlecase">
+                {{ nombreCompleto }}
+        </p-card>
+    </div>
+
+</div>
