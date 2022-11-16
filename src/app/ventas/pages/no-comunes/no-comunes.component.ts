@@ -38,4 +38,19 @@ export class NoComunesComponent {
     edad: 36,
     direccion: 'Castellón, España'
   }
+  
+  heroes = [
+    {
+      nombre: 'Superman',
+      vuela: true
+    },
+    {
+      nombre: 'Robin',
+      vuela: false
+    },
+    {
+      nombre: 'Aquaman',
+      vuela: false
+    },
+  ]
 }
